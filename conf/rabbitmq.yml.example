@@ -1,0 +1,10 @@
+host: "172.18.0.253"
+port: 5672
+username: "dev"
+password: "secret"
+vhost: "/"
+url: "amqp://dev:secret@172.18.0.253:5672/"
+exchangeName: "exchange"
+exchangeType: "direct"
+routingKey: "ddc_queue"
+queueName: "ddc_queue"

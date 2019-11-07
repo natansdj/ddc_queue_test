@@ -1,0 +1,18 @@
+hash: 26118bf1ed971a517fe83eacf48c096a918ba06e397279b689abc5d7dc4f792a
+updated: 2019-11-07T11:10:50.552813917+07:00
+imports:
+- name: github.com/assembla/cony
+  version: dd62697b0adb9adfda8589520cb85f4cbc2361f1
+- name: github.com/google/uuid
+  version: c2e93f3ae59f2904160ceaab466009f965df46d6
+- name: github.com/rs/zerolog
+  version: 7592fcbe604741a8d6044390c09d70c01569e1b3
+  subpackages:
+  - internal/cbor
+  - internal/json
+  - log
+- name: github.com/streadway/amqp
+  version: edfb9018d2714e4ec54dbaba37dbfef2bdadf0e4
+- name: gopkg.in/yaml.v2
+  version: f90ceb4f409096b60e2e9076b38b304b8246e5fa
+testImports: []

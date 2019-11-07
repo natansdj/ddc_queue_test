@@ -1,0 +1,11 @@
+package: ddc_queue_test
+import:
+- package: github.com/streadway/amqp
+- package: github.com/rs/zerolog
+  version: ^1.16.0
+  subpackages:
+  - log
+- package: gopkg.in/yaml.v2
+  version: ^2.2.5
+- package: github.com/assembla/cony
+  version: ^0.3.2
