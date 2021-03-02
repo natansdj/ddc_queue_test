@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ddc_queue/rabbitmq-sample/utils"
+	"ddc_queue_test/rabbitmq-sample/utils"
 	"flag"
 	"fmt"
 	"github.com/assembla/cony"
